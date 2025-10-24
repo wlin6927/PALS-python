@@ -1,0 +1,61 @@
+{
+  "fodo_cell": {
+    "kind": "BeamLine",
+    "line": [
+      {
+        "drift1": {
+          "kind": "Drift",
+          "length": 0.25
+        }
+      },
+      {
+        "quad1": {
+          "MagneticMultipoleP": {
+            "Kn1": 1.0
+          },
+          "kind": "Quadrupole",
+          "length": 1.0
+        }
+      },
+      {
+        "kicker1": {
+          "MagneticMultipoleP": {
+            "Kn1": 0.0
+          },
+          "kind": "Kicker",
+          "length": 0.0
+        }
+      },
+      {
+        "drift2": {
+          "kind": "Drift",
+          "length": 0.5
+        }
+      },
+      {
+        "quad2": {
+          "MagneticMultipoleP": {
+            "Kn1": -1.0
+          },
+          "kind": "Quadrupole",
+          "length": 1.0
+        }
+      },
+      {
+        "kicker2": {
+          "MagneticMultipoleP": {
+            "Ks1": 0.0
+          },
+          "kind": "Kicker",
+          "length": 0.0
+        }
+      },
+      {
+        "drift3": {
+          "kind": "Drift",
+          "length": 0.5
+        }
+      }
+    ]
+  }
+}
