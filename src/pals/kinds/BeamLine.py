@@ -7,6 +7,7 @@ from .Drift import Drift
 from .Quadrupole import Quadrupole
 from .Kicker import Kicker
 from .Sextupole import Sextupole
+from .Bend import Sbend, Rbend
 
 
 class BeamLine(BaseElement):
@@ -27,6 +28,8 @@ class BeamLine(BaseElement):
                 Quadrupole,
                 Kicker,
                 Sextupole,
+                Sbend,
+                Rbend,
                 "BeamLine",
             ],
             Field(discriminator="kind"),

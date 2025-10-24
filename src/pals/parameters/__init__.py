@@ -3,3 +3,4 @@ simpler import statements like `from pals import MagneticMultipoleParameters`.
 """
 
 from .MagneticMultipoleParameters import MagneticMultipoleParameters  # noqa: F401
+from .BendParameters import BendParameters

@@ -4,10 +4,14 @@ pyproject.toml
 src/pals/__init__.py
 src/pals/kinds/BaseElement.py
 src/pals/kinds/BeamLine.py
+src/pals/kinds/Bend.py
 src/pals/kinds/Drift.py
+src/pals/kinds/Kicker.py
 src/pals/kinds/Quadrupole.py
+src/pals/kinds/Sextupole.py
 src/pals/kinds/ThickElement.py
 src/pals/kinds/__init__.py
+src/pals/parameters/BendParameters.py
 src/pals/parameters/MagneticMultipoleParameters.py
 src/pals/parameters/__init__.py
 src/pals_schema.egg-info/PKG-INFO

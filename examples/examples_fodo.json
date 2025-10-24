@@ -27,6 +27,56 @@
         }
       },
       {
+        "drift1": {
+          "kind": "Drift",
+          "length": 0.25
+        }
+      },
+      {
+        "sext1": {
+          "MagneticMultipoleP": {
+            "Kn2": 0.5
+          },
+          "kind": "Sextupole",
+          "length": 0.5
+        }
+      },
+      {
+        "drift4": {
+          "kind": "Drift",
+          "length": 1.0
+        }
+      },
+      {
+        "sb": {
+          "BendP": {
+            "L_chord": 0.0,
+            "L_sagitta": 0.0,
+            "bend_field_ref": 0.0,
+            "e1": 0.0,
+            "e1_rect": 0.0,
+            "e2": 0.0,
+            "e2_rect": 0.0,
+            "edge_int1": 0.0,
+            "edge_int2": 0.0,
+            "g_ref": 0.0,
+            "h1": 0.0,
+            "h2": 0.0,
+            "rho_ref": 0.3141592653589793,
+            "tilt_ref": 0.0
+          },
+          "MagneticMultipoleP": null,
+          "kind": "Sbend",
+          "length": 5.0
+        }
+      },
+      {
+        "drift4": {
+          "kind": "Drift",
+          "length": 1.0
+        }
+      },
+      {
         "drift2": {
           "kind": "Drift",
           "length": 0.5
@@ -53,6 +103,15 @@
       {
         "drift3": {
           "kind": "Drift",
+          "length": 0.5
+        }
+      },
+      {
+        "sext2": {
+          "MagneticMultipoleP": {
+            "Kn2": -0.5
+          },
+          "kind": "Sextupole",
           "length": 0.5
         }
       }

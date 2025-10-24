@@ -9,3 +9,4 @@ from .Quadrupole import Quadrupole  # noqa: F401
 from .ThickElement import ThickElement  # noqa: F401
 from .Kicker import Kicker
 from .Sextupole import Sextupole
+from .Bend import Sbend, Rbend
